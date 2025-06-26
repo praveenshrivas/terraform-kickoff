@@ -8,6 +8,6 @@ resource "aws_instance" "MyEC2" {
 
   tags = {
     Name = "MyEC2Instance"
-    Env = "Prod"
+    Env = "dev"
   }
 }
