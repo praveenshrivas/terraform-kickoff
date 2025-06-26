@@ -7,7 +7,7 @@ resource "aws_instance" "MyEC2" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = MyEC2Instance
-    Env = Prod
+    Name = "MyEC2Instance"
+    Env = "Prod"
   }
 }
